@@ -89,3 +89,10 @@ Now you can control player `2` using keys `d0` (up) and `d1` (down) while watchi
 ## Notes  
 - If you don’t have permission to read the input device, run the command with `sudo`.  
 - If the server is behind a NAT or firewall, make sure the port is open for external connections.
+
+
+# How to run server
+```
+pip install aiohttp
+python server.py
+```
